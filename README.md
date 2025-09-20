@@ -1,4 +1,4 @@
-# FogE131
+# esp32-e131-relay-controller
 
 An ESP32-based E1.31 (sACN) receiver that controls a relay based on DMX channel data. This project listens for E1.31 packets over WiFi and toggles a relay output when channel 1 exceeds a threshold value.
 
@@ -39,7 +39,7 @@ brew install platformio # or pip install
 
 ```bash
 git clone <repository-url>
-cd FogE131
+cd esp32-e131-relay-controller
 ```
 
 ### 3. Configure WiFi Credentials
